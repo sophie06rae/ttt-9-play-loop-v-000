@@ -39,7 +39,6 @@ end
 def play(board)
 counter = 0
 while counter < 10
-  puts "Hi"
-counter += 1
+turn(board)
 end
 end
