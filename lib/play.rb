@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-while display_board(board) == " "
+until display_board(board) == "X"
   turn(board)
 end
 end
