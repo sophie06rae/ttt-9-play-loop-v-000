@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-until turn(board) == 9
-  turn(board)
+loop do turn(board) * 9
+  break
 end
 end
