@@ -40,3 +40,4 @@ def play(board)
 until turn(board) == ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
   turn(board)
 end
+end
