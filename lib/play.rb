@@ -37,5 +37,5 @@ end
 
 # Define your play method below
 def play(board)
-turn(board).to_i * 9
+turn(board) * 9
 end
